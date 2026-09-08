@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b2f35" />
+  <title>HealthHive | Safety Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <main id="app" aria-live="polite"></main>
+  <template id="login-template">
+    <section class="login-shell">
+      <div class="login-copy"><a class="brand" href="#"><span class="brand-mark">✦</span> HealthHive</a><p class="eyebrow">SAFETY INTELLIGENCE</p><h1>Every report deserves a safer response.</h1><p class="lede">Capture hazards in the language people use. Surface possible serious-injury precursors before they become events.</p><div class="signal"><span>●</span> Prototype workspace <b>Protected role access</b></div></div>
+      <form class="login-card" id="login-form"><p class="eyebrow">WELCOME BACK</p><h2>Enter the safety workspace</h2><label>Your name<input id="name" required placeholder="e.g. Anil Das" autocomplete="name" /></label><label>Passcode<input id="passcode" required minlength="4" type="password" placeholder="Minimum 4 characters" /></label><fieldset><legend>Continue as</legend><div class="role-picker"><label><input type="radio" name="role" value="worker" checked /><span>Worker<small>Report hazards and follow closure</small></span></label><label><input type="radio" name="role" value="supervisor" /><span>Supervisor<small>Review, triage and monitor risk</small></span></label></div></fieldset><button class="primary" type="submit">Continue securely <span>→</span></button><p class="form-note">Demo access only. Choose the correct role to see its workspace.</p></form>
+    </section>
+  </template>
+  <script src="assets/app.js"></script>
+</body>
+</html>
