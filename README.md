@@ -6,6 +6,7 @@ HealthHive is an **AI/NLP-powered workplace safety intelligence platform** desig
 
 The platform converts unstructured safety observations into structured, prioritized safety insights, helping **HSE teams identify critical risks, review uncertain cases, track corrective actions, and take preventive action before serious incidents occur.**
 
+Website Link - file:///C:/Users/Haripriya/.codex/.chatgpt-projects/g-p-6aa00ce0fb10819196866a8a8f05807f/index.html
 ---
 
 ## 🎯 Problem Statement
